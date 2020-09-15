@@ -1,8 +1,73 @@
 body {
     font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    background-image: url(../img/lapiz.jpg);
+    background:white;
+    background-repeat: no-repeat;
+    margin: 30px 30px;
     }
+.card img{
+    
+}
 
-   
-      
+    .container2{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        
+    }
+    
+    .container2 h1{
+        color: tomato;
+    }
+    
+
+    .caja1{
+        border-radius: 10px;
+        box-shadow: 2px 6px 20px gray;
+        padding: 0px 30px 30px 30px;
+        margin: 15px;
+        width: 300px;
+        color:gray;  
+    }
+    
+    .caja1 p{
+        color: grey;
+        
+    }
+    .caja1 img{
+        margin: 50px;
+    }
+.caja2{
+    border-radius: 10px;
+        box-shadow: 2px 6px 20px gray;
+        padding: 0px 30px 30px 30px;
+        margin: 15px;
+        width: 300px;
+        color:gray;  
+}
+
+.caja2 img{
+    margin: 50px;
+}
+.caja2 p{
+    color:grey;
+}
+
+.caja3{
+    border-radius: 10px;
+    box-shadow: 2px 6px 20px gray;
+    padding: 0px 30px 30px 30px;
+    margin: 15px;
+    width: 300px;
+    color:gray;  
+}
+
+.caja3 img{
+    margin: 50px;
+}
  
+.caja3 p{
+    color:grey;
+}
        

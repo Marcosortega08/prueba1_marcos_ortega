@@ -1,20 +1,28 @@
 body {
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
-    background-image: url(../img/lapiz.jpg);
-    background:white;
-    background-repeat: no-repeat;
-    margin: 30px 30px;
-    }
-.card img{
+  
     
-}
+    }
 
+    .menu ul {
+        display: flex;
+        }
+        .menu ul li {
+        list-style-type: none;
+        }
+        .menu ul li a {
+        text-decoration: none;
+        color: black;
+        margin-left: 32px;
+        }
+   
+        .card img{
+         height: 500px;
+        }
     .container2{
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;   
     }
     
     .container2 h1{
@@ -70,4 +78,86 @@ body {
 .caja3 p{
     color:grey;
 }
-       
+
+.caja4{
+    text-align: center;
+    color:black;
+    margin: 40px;
+}
+.caja4 h1{
+    font-size: 20px;
+    margin-top: -5px;
+}
+.caja4 h3{
+    font-size: 16px;
+}
+.caja4 input{
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border:0px; 
+    border:1px solid grey; 
+   
+}
+.caja4 button{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border:0px; 
+    border:1px solid grey; 
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.icono{
+    display: flex;
+    justify-content: flex-start;
+}
+.icono i{
+    color: black;
+    border:1px solid black;
+    margin-right: 12px;
+    width: 16px;
+    border-radius: 21px;
+    padding: 5px;
+    text-align: center;
+}
+
+.contact{
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    }
+    
+    .contact img{
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 16px;
+        margin-left: 10px;
+    }
+    
+    .info p{
+        font-weight: bolder;
+    }
+    
+    .cargo{
+    
+        font-weight: 400;
+        color: gray;
+        font-size: 12px;;
+    }
+    .caja5 ul {
+        display: flex;
+        }
+        .caja5 ul li {
+        list-style-type: none;
+        }
+        .caja5 ul li a {
+        text-decoration: none;
+        color: black;
+        margin-left: 32px;
+        }

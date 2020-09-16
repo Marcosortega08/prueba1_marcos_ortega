@@ -58,7 +58,8 @@ body {
     
     .container2 h1{
         text-align: center;
-        color: indigo;
+        justify-content: space-between;
+        color: white;
     }
     
 
@@ -68,6 +69,7 @@ body {
         padding: 0px 30px 30px 30px;
         margin: 15px;
         width: 300px;
+        background: white;
         color:gray;  
     }
     
@@ -85,6 +87,7 @@ body {
         padding: 0px 30px 30px 30px;
         margin: 15px;
         width: 300px;
+        background: white;
         color:gray;  
 }
 
@@ -102,6 +105,7 @@ body {
     padding: 0px 30px 30px 30px;
     margin: 15px;
     width: 300px;
+    background: white;
     color:gray;  
 }
 
@@ -202,9 +206,13 @@ body {
         justify-content: center;
         }
 
+        /* desktop */
         @media screen and (min-width:768px){
             body {
                 font-family: "Open Sans", sans-serif;
+                background-image: url('../img/lapiz.jpg');
+                background-repeat: no-repeat;
+                
                 }
             
                 .container2 h1{
